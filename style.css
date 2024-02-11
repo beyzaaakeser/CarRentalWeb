@@ -89,6 +89,7 @@ header img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  position: relative;
 }
 
 .text {
@@ -130,6 +131,43 @@ header img {
   left: 100px;
 }
 
+.input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.input-box span{
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.input-box input{
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(128, 128, 128,0.299);
+    border-radius: 5px;
+}
+
+.input-box button{
+    background-color: var(--main-color);
+    padding: 5px 8px;  
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+
+.input-box button:hover{
+    background-color: var(--second-color);
+    transition: .5s;
+    scale: 0.95;
+}
+
 @media (max-width: 650px) {
   .header-btn {
     display: flex;
@@ -143,5 +181,16 @@ header img {
     opacity: 0.9;
     transition: .9s;
     margin-left: 200px;
+  }
+
+  .input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .input-box input{
+    width: 100%;
   }
 }
