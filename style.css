@@ -357,6 +357,14 @@ header img {
   transition: 0.5s;
 }
 
+
+.reviews-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+
+
+
 @media (max-width: 650px) {
   .header-btn {
     display: flex;
