@@ -7,7 +7,7 @@ This car rental website I designed takes the car rental experience to a whole ne
 - HTML5
 - CSS3
 
-<h2> Visit My Car Rental Clone Website: </h2>
+<h2> Visit My Car Rental Website: </h2>
 
 - https://carrentalweb.netlify.app
 
