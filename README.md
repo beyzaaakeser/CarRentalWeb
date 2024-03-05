@@ -13,4 +13,4 @@ This car rental website I designed takes the car rental experience to a whole ne
 
 <h4>GIF</h4>
 
-![](images/carrentalweb.gif)
+![](images/carrental.gif)
